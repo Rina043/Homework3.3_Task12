@@ -1,20 +1,17 @@
 package ru.netology.domain;
-
 import org.junit.jupiter.api.Test;
-
 import static org.junit.jupiter.api.Assertions.*;
 
-class RadioTest {
-    @Test
-    public void shouldGetmaxRadiostation() {
-        Radio radio = new Radio(
-                20,
-                10,
-                50,
-                true);
+class RadioTest {@Test
+public void shouldGetmaxRadiostation() {
+    Radio radio = new Radio(
+            20,
+            10,
+            50,
+            true);
 
-        assertEquals(20, radio.getMaxRadiostation());
-    }
+    assertEquals(20, radio.getMaxRadiostation());
+}
     @Test
     public void shouldGetCurrentRadiostation() {
         Radio radio = new Radio(
